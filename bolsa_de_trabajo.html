@@ -122,7 +122,7 @@
 	<main>
 		<section>
 
-			<div class="col-md-12 main_imagen"></div>
+			<div class="col-md-12 main_imagen" style="background-image:url('../img/imagen.jpg')"></div>
 
 			<div class="container">
 				<div class="row">
@@ -141,29 +141,11 @@
 			<div class="container_vacante">
 				<div class="row">
 					<div class="col-md-12 col-xs-12 table_vacante">
-						<p>FORMA PARTE DE NUESTRA FAMILIA</p>
+						<h1>FORMA PARTE DE NUESTRA FAMILIA</h1>
 					</div>
 				</div>
 
-				<div class="row input_campos">
-					<div class="col-md-4 col-xs-12">
-						<label class="sr-only" for="inlineFormInput">Vacante</label>
-						<input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Escribe el nombre de la vacante">
-					</div>
-					<div class="col-md-4 col-xs-12">
-						<label class="sr-only" for="inlineFormInput">Área</label>
-						<input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Escribe el nombre del área">
-					</div>
-					<div class="col-md-2  col-xs-12">
-						<label class="sr-only" for="inlineFormInput">Ciudad</label>
-						<input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Escribe tu ciudad">
-					</div>
-					<div class="col-md-2 col-xs-12">
-						<button type="button" class="btn-primary btn_busqueda">Buscar</button>
-					</div>
-				</div>
-
-				<div class="row">
+				<div class="row fila_etiquetas">
 					<div class="col-md-4 col-sm-4 col-xs-12 table_vacante_header">
 						<p> <i class="fa fa-file" aria-hidden="true"></i> VACANTE</p>
 					</div>
@@ -173,53 +155,64 @@
 					<div class=" col-md-4 col-sm-4 col-xs-12 table_vacante_header">
 						<p> <i class="fa fa-map-marker" aria-hidden="true"></i> CIUDAD</p>
 					</div>
-
 				</div>
 
 				<div class="row resultados_blanco">
 					<div class="col-md-4 col-sm-4 ">
+						<span>Vacante:</span>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="col-md-4 col-sm-4 ">
+						<span>Área:</span>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="col-md-4 col-sm-4 ">
+						<span>Ciudad:</span>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 				</div>
 
 				<div class="row resultados_gris">
 					<div class="col-md-4 col-sm-4 ">
+						<span>Vacante:</span>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="col-md-4 col-sm-4 ">
+						<span>Área:</span>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="col-md-4 col-sm-4 ">
+						<span>Ciudad:</span>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 				</div>
 
 				<div class="row resultados_blanco">
 					<div class="col-md-4 col-sm-4 ">
+						<span>Vacante:</span>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="col-md-4 col-sm-4 ">
+						<span>Área:</span>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="col-md-4 col-sm-4 ">
+						<span>Ciudad:</span>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 				</div>
 
 				<div class="row resultados_gris">
 					<div class="col-md-4 col-sm-4 ">
+						<span>Vacante:</span>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="col-md-4 col-sm-4 ">
+						<span>Área:</span>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="col-md-4 col-sm-4 ">
+						<span>Ciudad:</span>
 						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 				</div>
@@ -229,6 +222,111 @@
 
 		</div>
 	</section>
+
+	<section>
+		<div class="container">
+
+			<div class="row">
+				<div class="col-xs-12 formulario_header">
+					<h3>¡ÚNETE A LA GRAN FAMILIA MUNDO JOVEN!</h3>
+					<h4>Todos los campos son obligatorios</h4>
+				</div>
+			</div>
+
+			<div class="row form-group formulario">
+				<div class="col-md-3 col-xs-12">
+					<input class="form-control" type="text" value="NOMBRE COMPLETO" id="example-text-input">
+					<p class="alerta">El nombre es un campo requerido</p>
+					<p class="alerta">La longitud mínima es de 3 caracteres</p>
+					<p class="alerta">El nombre debe contener solo letras, espacios y números</p>
+				</div>
+				<div class="col-md-3 col-xs-12">
+					<input class="form-control" type="text" value="CORREO ELECTRÓNICO" id="example-text-input">
+					<p class="alerta">El correo electrónico es obligatorio</p>
+					<p class="alerta">El email es de la forma ejemplo@ejemplo.com</p>
+				</div>
+				<div class="col-md-3 col-xs-12">
+					<input class="form-control" type="text" value="EDAD" id="example-text-input">
+					<p class="alerta">La edad es un campo requerido</p>
+					<p class="alerta">Sólo son válidos números</p>
+					<p class="alerta">La longitud es de 2 números</p>
+				</div>
+				<div class="col-md-3 col-xs-12">
+					<input class="form-control" type="text" value="TELÉFONO" id="example-text-input">
+					<p class="alerta">Teléfono es un campo requerido</p>
+					<p class="alerta">Sólo son válidos números</p>
+					<p class="alerta">La longitud es de 10 a 13 números</p>
+				</div>
+			</div>
+
+			<div class="row form-group formulario">
+				<div class="col-md-3 col-xs-12">
+					<select name="escolaridad" class="form-control">
+					<option value="" class="">ESCOLARIDAD</option>
+					<option value="0" label="Primaria">Primaria</option>
+					<option value="1" label="Secundaria">Secundaria</option>
+					<option value="2" label="Preparatoria o Bachilerato">Preparatoria o Bachilerato</option>
+					<option value="3" label="Licenciatura Trunca">Licenciatura Trunca</option><option value="4" label="Licenciatura Trunca">Licenciatura Trunca</option><option value="5" label="Licenciatura Titulado">Licenciatura Titulado</option><option value="6" label="Postgrado">Postgrado</option>
+					</select>
+					<p class="alerta">Selecciona un grado de escolaridad</p>
+				</div>
+				<div class="col-md-3 col-xs-12">
+					<input class="form-control" type="text" value="ÁREA DE ESPECIALIDAD" id="example-text-input">
+					<p class="alerta">El área de especialidad es requerida</p>
+					<p class="alerta">Solo son validas letras y espacios</p>
+				</div>
+				<div class="col-md-3 col-xs-12">
+					<input class="form-control" type="text" value="LUGAR DE RESIDENCIA" id="example-text-input">
+					<p class="alerta">Lugar de residencia es requerido</p>
+					<p class="alerta">Solo son validas letras y espacios</p>
+				</div>
+				<div class="col-md-3 col-xs-12">
+					<input class="form-control" type="text" value="CONOCIMIENTOS ESPECIALIZADOS" id="example-text-input">
+					<p class="alerta">Conocimientos especilizados es requerido</p>
+					<p class="alerta">Sólo son válidos números</p>
+					<p class="alerta">Solo son validas letras y espacios</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<fieldset>
+		<div class="container">
+			<div class="row formulario">
+				<div class="col-md-4 col-md-offset-2 col-xs-12">
+					<div class="form-group">
+						<input class="form-control" type="text" value="TIEMPO DE EXPERIENCIA" id="example-text-input">
+						<p class="alerta">Tiempo de experiencia es necesario</p>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-xs-12">
+					<div class="btn btn-default">
+						<span class="icon-span-filestyle glyphicon glyphicon-folder-open"></span> &nbsp;Adjuntar Curriculum
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-md-offset-3 col-xs-12">
+				<input type="checkbox" name="acepto_terminos"> Consiento y autorizo que mis datos personales sean tratados y difundidos por Mundo Joven, a lo previsto en el <a href="http://mundojoven.com/politicas-de-privacidad/">Aviso de privacidad</a>
+				<p class="alerta">Debes aceptar los terminos y condiciones</p>
+			</div>
+
+			<div class="col-xs-12">
+				<p>&nbsp;</p>
+			</div>
+
+			<div class="row">
+				<div class="col-md-2 col-xs-12 col-md-offset-5">
+					<button type="button" class="btn-primary btn_enviar">ENVIAR</button>
+				</div>
+			</div>
+
+			<div class="col-xs-12">
+				<p>&nbsp;</p>
+			</div>
+		</div>
+	</fieldset>
 
 	<section>
 		<div class="container video">
